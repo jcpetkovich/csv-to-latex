@@ -1,0 +1,30 @@
+NAME
+    csvtolatex.pl - Turns a well behaving csv into a latex table.
+
+SYNOPSIS
+    csvtolatex.pl [options] file...
+
+          -h --help                  Print this help documentation.
+          --order [name[,name...]]   Change the order or omit elements.
+
+DESCRIPTION
+    csvtolatex.pl converts csv data into latex tables. If an ordering is
+    specified (with the names of the columns) then that ordering is used for
+    the final latex table. If columns are excluded from the ordering, then
+    they are omitted.
+
+    WARNING the csv should have a well formed header (also comma seperated).
+
+AUTHOR
+    Jean-Christophe Petkovich, <me@jcpetkovich.com>
+
+COPYRIGHT AND LICENSE
+    Copyright (C) 2012 by Jean-Christophe Petkovich
+
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself, either Perl version 5.8.2 or, at
+    your option, any later version of Perl 5 you may have available.
+
+BUGS
+    None reported... yet.
+
